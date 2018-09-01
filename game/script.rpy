@@ -124,9 +124,9 @@ label gamebegins:
         window hide dissolve
         $persistent.day9 = True
         menu:
-            "I want to learn more about StarCraft.":
+            "Я хочу узнать больше о StarCraft.":
                 jump day9scene
-            "I'll watch it later.":
+            "Я посмотрю позже.":
                 pass
                 
     show malemach:
@@ -141,9 +141,9 @@ label gamebegins:
         alpha 0
         easein 0.3 xpos 640 alpha 1
 
-    "In SC2VN, you select the gender of the main character, Mach."
-    "The choice will mostly impact how he or she appears. The story differences are minor."
-    "Now, select the main character."
+    "В SC2VN, вы можете выбрать пол протагониста, Маха."
+    "Выбор в основном будет влиять на то, как будут обращаться к герою. Различия в истории незначительны."
+    "Выберите персонажа."
     hide malemach
     hide femmach
 
@@ -185,13 +185,13 @@ label femmachchoice:
         xpos 640
         alpha 1
         easein 0.3 xpos 200 alpha 1
-    "Begin the story as the female main character?"
+    "Начать историю за женского персонажа?"
 
     menu:
-        "Yes, I want to play as the female main character.":
+        "Да, я хочу играть за женского персонажа.":
             hide femmach with dissolve
             jump fcityfade
-        "No, I want to rethink my choice.":
+        "Нет, я передумал.":
             hide femmach with Dissolve(0.2)
             jump genderchoiceloop
 
@@ -203,12 +203,12 @@ label malemachchoice:
         xpos 0
         alpha 1
         easein 0.3 xpos 400
-    "Begin the story as the male main character?"
+    "Начать историю за мужского персонажа?"
     menu:
-        "Yes, I want to play as the male main character.":
+        "Да, я хочу играть за мужского персонажа.":
             hide malemach with dissolve
             jump mcityfade
-        "No, I want to rethink my choice.":
+        "Нет, я передумал.":
             hide malemach with Dissolve(0.2)
             jump genderchoiceloop
 
@@ -245,7 +245,7 @@ label day9scene:
     with Dissolve(3.0)
     window show dissolve
     play sound "sfx/day1.ogg"
-    timmy".... Hhhhhhhhhhhhhhhh."
+    timmy".... Хмммммммммммммм."
     show day neutral at left:
         xpos -.2 ypos .75
         parallel:
@@ -261,46 +261,46 @@ label day9scene:
         xpos .05 ypos .757
     $ renpy.pause(.3)
     play sound "sfx/day2.ogg"
-    day9 "Hey Timmy! Long time no see. How's it going?"
+    day9 "Привет Тимми! Давно не виделись. Как дела?"
     play sound "sfx/day3.ogg"
     show timmy think
-    timmy "Oh, hey Day9... Not too good."
+    timmy "Ох, привет Day9... Не очень хорошо."
     show day hmm
     play sound "sfx/day4.ogg"
-    day9 "Aww, why so glum dude? What's up?"
+    day9 "Оо, почему ты такой угрюмый, чувак? Что стряслось?"
     play sound "sfx/day5.ogg"
-    timmy "Well, I wanna play this super neat new game, it's called SC2VN. But I don't know that much about StarCraft. I'm afraid a bunch of stuff is just going to go over my head."
+    timmy "Ну, я хочу сыграть в новую, отличную игру. Она называется SC2VN. Но я знаю о StarCraft всего ничего. Боюсь, что многого не пойму."
     show day neutral
     play sound "sfx/day6.ogg"
-    day9 "Aww, don't get down on yourself Timmy. How about I help you out on some background info? That way, you won't feel so lost."
+    day9 "Оо, не падай духом, Тимми. Как насчёт того, что я помогу тебе узнать основную информацию. Таким образом, ты не будешь чувствовать себя потерянным."
     show timmy happy
     play sound "sfx/day7.ogg"
-    timmy "Wow, really...? Thanks Day9, you're the best!"
+    timmy "Вау, правда...? Спасибо Day9, ты лучший!"
     show day happy
     play sound "sfx/day8.ogg"
-    day9 "No problem Timmy! So, what would you like to know?"
+    day9 "Без проблем Тимми! Так, что бы ты хотел узнать?"
     show timmy neutral
     play sound "sfx/day9.ogg"
-    timmy "Okay, well, what were the earliest days of StarCraft like in Korea?"
+    timmy "Хорошо, какие были ранние дни StarCraft, например в Корее?"
     show day eyebrow
     play sound "sfx/day10.ogg"
     show image "char/bonus/ChalkSuit.png" at center behind day, timmy
-    day9 "Oh you mean the days when players dressed up in spacesuits and played in tiny studios with fog machines?"
+    day9 "А, ты имеешь в виду дни, когда игроки одевали скафандры и играли в крошечных студиях с туманными машинами?"
     show timmy surprised
     play sound "sfx/day11.ogg"
-    timmy "Aaaaww that sounds sooooo cooooool...!"
+    timmy "Оо, это звучит так круто...!"
     show day hmm
     play sound "sfx/day12.ogg"
-    day9 "Okay hold on, we're getting a little ahead of ourselves. Don't you need me to tell you what StarCraft actually is?"
+    day9 "Погоди-ка, мы немного забежали вперёд. Мне не нужно объяснять что именно такое StarCraft?"
     show timmy sad
     play sound "sfx/day13.ogg"
-    timmy "Please Day9, I'm not that bad. What kind of person downloads visual novels about StarCraft without knowing that it’s a popular real time strategy game made by Blizzard?"
+    timmy "Пожалуйста, Day9, я не настолько плох. Какой человек скачивает визуальные новеллы о StarCraft не зная что это популярная стратегия в реальном времени, созданная Blizzard?"
     show day neutral
     play sound "sfx/day14.ogg"
     day9 "Well Timmy, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
     play sound "sfx/day15.ogg"
     show timmy think
-    timmy "Guhhh, fine....."
+    timmy "Нуууууу...Хорошо....."
     show day instruct
     show timmy neutral
     play sound "sfx/day161.ogg"
