@@ -191,7 +191,7 @@ label femmachchoice:
         "Да, я хочу играть за женского персонажа.":
             hide femmach with dissolve
             jump fcityfade
-        "Нет, я передумал.":
+        "Нет, я хочу изменить своё решение.":
             hide femmach with Dissolve(0.2)
             jump genderchoiceloop
 
@@ -208,7 +208,7 @@ label malemachchoice:
         "Да, я хочу играть за мужского персонажа.":
             hide malemach with dissolve
             jump mcityfade
-        "Нет, я передумал.":
+        "Нет, я хочу изменить своё решение.":
             hide malemach with Dissolve(0.2)
             jump genderchoiceloop
 
@@ -297,7 +297,7 @@ label day9scene:
     timmy "Пожалуйста, Day9, я не настолько плох. Какой человек скачивает визуальные новеллы о StarCraft не зная что это популярная стратегия в реальном времени, созданная Blizzard?"
     show day neutral
     play sound "sfx/day14.ogg"
-    day9 "Ну, Тимми, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
+    day9 "(Я ПЕРЕВЁЛ ЭТО НЕ ДО КОНЦА)Ну, Тимми, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
     play sound "sfx/day15.ogg"
     show timmy think
     timmy "Нуууууу...Хорошо....."
@@ -356,24 +356,24 @@ label day9scene:
     day9 "Ну...поначалу да, но ты должен помнить, что Корея уже имела инфраструктуру для показа eSports. Они просто провернули те же организационные работы со  StarCraft 2."
     play sound "sfx/day272.ogg"
     show day eyebrow
-    day9 "And even though everyone started the same, quickly, Korea left the rest of the world in the dust."
+    day9 "И даже если все начали одновременно, Корея быстро оставила остальной мир позади."
     play sound "sfx/day28.ogg"
     show day hmm
-    day9 "Only a handful of non-Korean players have been able to put up a challenge. Nothing really compares to the Korean team house."
+    day9 "Только горстка Не-корейских игроков были способны бросить вызов. Ничто не сравнится с корейским командным домом."
     play sound "sfx/day29.ogg"
     show timmy surprised
-    timmy "What's a team house?"
+    timmy "Что за командный дом?"
     play sound "sfx/day30.ogg"
     show day eyebrow
-    day9 "C'mon Timmy, you can figure this one out."
+    day9 "Да ладно, Тимми, ты можешь и сам догадаться."
     play sound "sfx/day31.ogg"
     show timmy think
-    timmy "Uhhhhhnnmmmmm?????"
+    timmy "Эээээээээээээммм?????"
     play sound "sfx/day321.ogg"
     show day happy
     hide image "char/bonus/ChalkGirl.png"
     show image "char/bonus/ChalkHouse.png" at center
-    day9 "A for effort Timmy! It's pretty much what it sounds like. A team house is both living quarters and a practice environment."
+    day9 "Пятёрка за старания, Тимми! It's pretty much what it sounds like. A team house is both living quarters and a practice environment."
     play sound "sfx/day322.ogg"
     show day instruct
     show timmy neutral
@@ -384,7 +384,7 @@ label day9scene:
     show image "char/bonus/ChalkHouse.png" at center
     hide image "char/bonus/ChalkCoach.png" at center
     show day animated
-    day9 "... they're talking strategy all the time. It's pretty much unanimously agreed upon that Korea is the place to be to get better at StarCraft."
+    day9 "... они всё время обсуждают стратегию. It's pretty much unanimously agreed upon that Korea is the place to be to get better at StarCraft."
     play sound "sfx/day324.ogg"
     show day instruct
     hide image "char/bonus/ChalkHouse.png"
