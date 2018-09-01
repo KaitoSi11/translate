@@ -2096,7 +2096,7 @@ label boltlosedrops:
     "When she's done going through my long list of mistakes, Jett flicks a hand back towards the PCs."
     stop music fadeout 3.0
     show jett unimpressed with dissolve
-    j "Come on. Queue up a game against me."
+    j "Давай, сыграй игру против меня."
     window hide dissolve
     stop sound fadeout 2.0
     scene black with midfade:
