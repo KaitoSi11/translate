@@ -297,7 +297,7 @@ label day9scene:
     timmy "Пожалуйста, Day9, я не настолько плох. Какой человек скачивает визуальные новеллы о StarCraft не зная что это популярная стратегия в реальном времени, созданная Blizzard?"
     show day neutral
     play sound "sfx/day14.ogg"
-    day9 "Well Timmy, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
+    day9 "Ну, Тимми, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
     play sound "sfx/day15.ogg"
     show timmy think
     timmy "Нуууууу...Хорошо....."
@@ -307,12 +307,12 @@ label day9scene:
     hide image "char/bonus/ChalkSuit.png"
     show image "char/bonus/toi.jpg" at center:
         ypos .43
-    day9 "Like you said Timmy, StarCraft is a highly competitive game. Rather than the black and white of chess pieces, players choose between three different races, each with its own advantages and playstyles."
+    day9 "Как ты и сказал, Тимми, StarCraft - это высококонкурентная игра. Вместо черно-белых шахматных фигур игроки выбирают между тремя разными расами, каждый со своими преимуществами и игровыми стилями."
     play sound "sfx/day162.ogg"
     hide image "char/bonus/toi.jpg" at center
     show image "char/bonus/races.png" at center:
     show day animated
-    day9 "The powerful, enigmatic protoss. The scrappy, efficient terran. Or the swarmy, insect-like zerg. For fifteen years StarCraft has been played professionally in South Korea."
+    day9 "Мощнейшие, загадочные Протосы. The scrappy, efficient terran. Или роевые, насекомоподобный Зерги. For fifteen years StarCraft has been played professionally in South Korea."
     play sound "sfx/day17.ogg"
     show timmy surprised
     show day neutral
