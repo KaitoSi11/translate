@@ -312,48 +312,48 @@ label day9scene:
     hide image "char/bonus/toi.jpg" at center
     show image "char/bonus/races.png" at center:
     show day animated
-    day9 "Мощнейшие, загадочные Протосы. The scrappy, efficient terran. Или роевые, насекомоподобный Зерги. For fifteen years StarCraft has been played professionally in South Korea."
+    day9 "Мощнейшие, загадочные Протосы. Эффективные, лоскутные терраны. Или роевые, насекомоподобный Зерги. В течении пятнадцати лет в StarCraft профессионально играли в Южной Корее"
     play sound "sfx/day17.ogg"
     show timmy surprised
     show day neutral
-    timmy "Wow, really? You mean... people can play video games for a living?"
+    timmy "Вау, правда? То есть... люди могут играть в видеоигры и зарабатывать этим.?"
     play sound "sfx/day18.ogg"
     show day happy
-    day9 "That’s right Timmy! Corporate sponsors fund teams for millions of dollars just like any other sport, and the players compete in televised tournaments for cash prizes in events known as StarLeagues. eSports is the real deal!"
+    day9 "Именно так, Тимми! Корпорации спонсируют команды миллионами долларов, как любой другой спорт, и игроки соревнуются в турнирах за денежные призы в мероприятиях, известных как StarLeagues. eSports - это настоящее дело!"
     play sound "sfx/day19.ogg"
     show timmy neutral
-    timmy "And people actually tune into the tournaments? They watch StarCraft on TV?"
+    timmy "И люди действительно следят за турнирами? Они смотрят StarCraft по телевизору?"
     play sound "sfx/day20.ogg"
     show timmy surprised
-    timmy "I can't believe it!"
+    timmy "Не могу поверить в это!"
     play sound "sfx/day21.ogg"
     show day instruct
     show timmy neutral
     hide image "char/bonus/races.png" at center
     show image "char/bonus/ChalkGirl.png" at center
-    day9 "Believe it, Timmy! Those television broadcasts helped expose StarCraft to non-gamers, and fans began to follow eSports not only because they played the game themselves, but because they could get invested in the players, personalities, rivalries, the storylines!"
+    day9 "Поверь, Тимми! Эти трансляции помогли раскрыть StarCraft для не игроков, и фанаты начали слежить за eSports не только потому что они сами играют в игру, но и потому, они могли бы поддержать материально игроков, их личности, соперничество, и сюжетные линии!"
     play sound "sfx/day22.ogg"
     show timmy sad
     show day neutral
     hide image "char/bonus/esports.jpg" at center
-    timmy "I guess that makes sense. So, eSports became popular in Korea in the early 2000s... But what was happening everywhere else in the world?"
+    timmy "Полагаю, в этом есть смысл. Значит, eSports стал популярным в Корее в начале 2000-х годов... Но что происходило во всем мире?"
     play sound "sfx/day23.ogg"
     show day eyebrow
     show timmy neutral
-    day9 "Well StarCraft was certainly successful in the West, with a ton of great competitors existing from all over the world."
+    day9 "Ну, StarCraft, безусловно, был успешным на Западе, с тонной сильных конкурентов, существующих во всём мире.."
     play sound "sfx/day24.ogg"
     show day hmm
-    day9 "But, StarCraft didn't really catch on as a televised eSport anywhere else."
+    day9 Но StarCraft в действительности не завоевал популярность как транслируемый eSport где-нибудь ещё."
     play sound "sfx/day25.ogg"
     show day neutral
-    day9 "So as a result, the Korean players, with their professional training and their televised tournaments were head and shoulders above everyone else."
+    day9 "Таким образом, корейские игроки, с их профессиональной подготовкой и турнирами были на голову выше всех остальных."
     play sound "sfx/day26.ogg"
     show timmy sad
-    timmy "Well okay, the Koreans were better in Starcraft 1 {i}(Brood War){/i}. But wasn't everyone on an even playing field when StarCraft 2 came out?"
+    timmy "Ну хорошо, Корейцы были лучше в Starcraft 1 {i}(Brood War){/i}. Но разве все не были в равных условиях, когда вышла StarCraft 2?"
     play sound "sfx/day271.ogg"
     show day instruct
     show timmy neutral
-    day9 "Well at first yeah, but you have to remember that Korea already had an infrastructure for televised eSports. They simply rolled that same regimented practice schedule over to StarCraft 2."
+    day9 "Ну...поначалу да, но ты должен помнить, что Корея уже имела инфраструктуру для показа eSports. Они просто провернули те же организационные работы со  StarCraft 2."
     play sound "sfx/day272.ogg"
     show day eyebrow
     day9 "And even though everyone started the same, quickly, Korea left the rest of the world in the dust."
