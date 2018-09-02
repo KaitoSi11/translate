@@ -297,7 +297,7 @@ label day9scene:
     timmy "Пожалуйста, Day9, я не настолько плох. Какой человек скачивает визуальные новеллы о StarCraft не зная что это популярная стратегия в реальном времени, созданная Blizzard?"
     show day neutral
     play sound "sfx/day14.ogg"
-    day9 "(Я ПЕРЕВЁЛ ЭТО НЕ ДО КОНЦА)Ну, Тимми, in the off-chance that this is a recording designed for complete newbies to eavesdrop upon, how about I go over a few basics?"
+    day9 "Ну, Тимми, в случае если эта запись сделана для полных новичков, как насчёт того, что я начну с основ?"
     play sound "sfx/day15.ogg"
     show timmy think
     timmy "Нуууууу...Хорошо....."
@@ -373,44 +373,44 @@ label day9scene:
     show day happy
     hide image "char/bonus/ChalkGirl.png"
     show image "char/bonus/ChalkHouse.png" at center
-    day9 "Пятёрка за старания, Тимми! It's pretty much what it sounds like. A team house is both living quarters and a practice environment."
+    day9 "Пятёрка за старания, Тимми! Командный дом - это место, где игроки живут и тренируются."
     play sound "sfx/day322.ogg"
     show day instruct
     show timmy neutral
     hide image "char/bonus/ChalkHouse.png" at center
     show image "char/bonus/ChalkCoach.png" at center
-    day9 "Coaches and managers add structure to a daily schedule, they match you up against practice partners in a way that's more productive to you. And because everyone lives together..."
+    day9 "Тренеры и менеджеры составляют расписание, ставят против тебя таких партнёров, против которых ты будешь наиболее продуктивен. И раз все живут вместе..."
     play sound "sfx/day323.ogg"
     show image "char/bonus/ChalkHouse.png" at center
     hide image "char/bonus/ChalkCoach.png" at center
     show day animated
-    day9 "... они всё время обсуждают стратегию. It's pretty much unanimously agreed upon that Korea is the place to be to get better at StarCraft."
+    day9 "... они всё время обсуждают стратегию. Довольно единогласно решено, что Корея это место где можно стать лучше в StarCraft."
     play sound "sfx/day324.ogg"
     show day instruct
     hide image "char/bonus/ChalkHouse.png"
     show image "char/bonus/drewbie.jpg" at center:
         ypos .43
-    day9 "As a result, western pros head abroad to train or bootcamp pretty regularly."
+    day9 "В результате, Западные про игроки тренируются за границей довольно часто."
     play sound "sfx/day33.ogg"
     show timmy happy
     show day neutral
     hide image "char/bonus/drewbie.jpg" at center
-    timmy "Wow. I feel so enlightened! All of this knowledge......!"
+    timmy "Вау, я чувствую себя таким просвещённым......!"
     play sound "sfx/day34.ogg"
     show day happy
-    day9 "Thrilled to be of service Timmy. Anything else I can assist with?"
+    day9 "Рад помочь, Тимми. Подсказать что-то ещё?"
     play sound "sfx/day35.ogg"
     show timmy neutral
-    timmy "Yeah I think covers everything Mr. Nine. Now I can read SC2VN without googling every five minutes! Thanks for helping me out. I super, duper appreciate it."
+    timmy "Да я думаю, что всё усвоил Day9. Теперь я могу читать SC2VN не гугля каждые пять минут! Спасибо, что помогли мне. Я очень сильно ценю это."
     play sound "sfx/day36.ogg"
     show day neutral
-    day9 "Totally."
+    day9 "Определённо."
     play sound "sfx/day37.ogg"
     show timmy happy
-    timmy "Anyways, I'll see you later! Thanks again!"
+    timmy "Ладно, ещё увидимся! Ещё раз спасибо!"
     play sound "sfx/day38.ogg"
     show day happy
-    day9 "Good luck Timmy! And try not to get a bad ending!"
+    day9 "Удачи, Тимми! Постарайся не получить плохую концовку!"
     window hide dissolve
     $persistent.day9 = True
     stop music fadeout 2.0
