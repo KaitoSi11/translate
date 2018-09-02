@@ -445,7 +445,7 @@ jo "Wait, give me that. That kind of pandering isn’t in the budget. Besides, t
 show damen calm with Dissolve(.2)
 d "Five out of the seven characters are male, not including us or Mach. Are you sure about that?"
 show jon shrug with Dissolve(.2)
-jo "Well, it’s certainly not a BL game. And that’s a decent ratio for eSports!"
+jo "Ну, это определённо не яойная игра. And that’s a decent ratio for eSports!"
 show cam thinking with Dissolve(.2)
 ca "Reva isn’t brave enough to go outdoors unless it’s for StarCraft, which leaves us with Jett for OVA-style hijinks..."
 window hide dissolve
