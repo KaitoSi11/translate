@@ -644,12 +644,12 @@ show cam neutral at left:
 show damen calm at right:
     xpos 1.09
 with fade
-ca "Ooh, street food. Are you guys hungry?"
+ca "Оо, забегаловка. Вы, парни, голодные?"
 show damen:
     linear .1 xpos .88
 show jon neutral:
     linear .1 xpos .4
-jo "That looks like a Tornado Potato. An intense food with a name to match."
+jo "Это похоже на картофель торнадо. An intense food with a name to match."
 show damen smile with Dissolve(.2)
 d "It would not surprise me to learn of a pro-gamer with that as his handle."
 show cam smile with Dissolve(.2)
@@ -659,7 +659,7 @@ jo "There’s a pro-gamer who once had a tomato haircut. It was possibly the onl
 show cam intense with Dissolve(.2)
 ca "We will need to get a confirmation on that from StarCraft's official hair authority before passing judgment."
 show damen calm with Dissolve(.2)
-d "... Clearly, this background has weak material for jokes. We should escape it as soon as possible."
+d "... Clearly, у этого места был слабый потенциал для шуток. Мы должны убраться отсюда как можно скорее."
 show bg darkpcbang:
     align (0, 0)
 show damen phone:
@@ -667,24 +667,24 @@ show damen phone:
 show cam neutral
 show jon neutral at center
 with fade
-d "Stomping Grounds. Also known as the PC bang that Stunt’s mom runs. He’s the hero of the cafe until he’s defeated and captured by Mach."
+d "Stomping Grounds. Также известен как компьютерный клуб, которым управляет мама Станта. Он был героем клуба, пока его не победил Мах."
 show cam intense with Dissolve(.2)
 ca "Lucky for him that this isn’t a *ance game. Gahahaha!"
 show jon shrug with Dissolve(.2)
-jo "Hero to a bunch of middle schoolers, at least. How old is Stunt anyway?"
+jo "Как минимум герой подростков. Сколько вообще лет Станту?"
 show damen neutral with Dissolve(.2)
-d "Sixteen. But that makes him fifteen by our standards. Korean age is slightly different."
+d "Шестнадцать. Но по нашим стандартам ему пятнадцатьs. Корейский возраст немного отличается."
 show cam thinking with Dissolve(.2)
-ca "... Hm… Something seems off."
+ca "... Хм… Что-то тут не так."
 show jon neutral with Dissolve(.2)
-jo "What is it?"
+jo "Что же?"
 hide damen
 hide jon
 hide cam
 show bg darkpcbang:
     linear .3 zoom 1.4 xpos -.36
 pause .3
-ca "Why are they advertising for the VSL? If it was just a little poster I would understand, but that thing on the right covers the entire wall."
+ca "Почему они рекламируют VSL? Если бы это был просто маленький плакат, я бы понял, но эта штука справа покрывает всю стену."
 scene bg darkpcbang at center:
     zoom 1.0
 show damen phone at right:
@@ -694,41 +694,41 @@ show cam neutral at left:
 show jon neutral at center
 with dissolve
 
-d "Oh. It says here that this was originally the background for the qualifier area. You know, the opening shot where Mach whines about losing?"
+d "Oh. It says here that this was originally the background for the qualifier area. Вы знаете, начальный кадр, где Мах ноет о поражении?"
 show damen smile with Dissolve(.2)
 d "But there was only one scene there, so they repurposed it to be a second PC bang."
 show cam intense with Dissolve(.2)
 ca "What?! That’s lazy!"
-stuntmom "HEY! Don’t speak badly of my establishment!"
+stuntmom "ЭЙ! Не говорите плохо о моём заведении!"
 show cam thinking with Dissolve(.2)
-ca "Ah! S-Sorry, Mrs. Stunt…"
+ca "Ох! И-извините, миссис Стант…"
 show jon shrug with Dissolve(.2)
-jo "Hm. Do you think that there's a Mr. Stunt?"
+jo "Хм. Как думаете, существует мистер Стант?"
 show damen calm with Dissolve(.2)
-d "If there is, he has a troubled relationship with his family. Maybe he’s always overseas, or maybe he’s just a deadbeat."
+d "Если и существует, то у него натянутые отношения с семьёй. Может быть, он всегда за границей, или, может быть, просто мертв."
 show jon smile with Dissolve(.2)
-jo "Oh, poor Stunt. No wonder why he’s such a twerp. No male role models."
+jo "Ох, бедный Стант. Неудивительно, что он такой хам. Не на кого равняться."
 show image "bg/bonus scene.jpg" at center:
     ypos .6 xpos .5
 show damen smile with Dissolve(.2)
-d "He could have had it a lot worse on the female Mach route if this were a certain type of doujin."
+d "Он мог быть ещё хуже на женском руте Маха, если бы это был опредёленный тип додзинси."
 show cam smile with Dissolve(.2)
-ca "... P-Please. This isn't one of those kind of games. Let's not go there."
+ca "... П-Пожалуйста. Это не одна из таких игр. Давайте не будем об этом."
 hide image "bg/bonus scene.jpg"
 show jon shrug with Dissolve(.2)
-jo "Hm. I find this place is more aesthetically appealing than Golden Zonefire. Why couldn’t Stomping Grounds have been the main cafe?"
+jo "Хм.  Я считаю это место более привлекательным, чем Golden Zonefire. Почему бы Stomping Grounds не быть главным кафе?"
 show damen neutral with Dissolve(.2)
-d "Because then the game would be too dark. This story is about StarCraft, not Diablo."
+d "Потому что тогда игра будет слишком мрачной. Это история о StarCraft, а не о Diablo."
 show jon neutral with Dissolve(.2)
 jo "You have a point…"
 show damen phone with Dissolve(.2)
-d "In reality, most PC bangs have low light like this. It helps ease eye strain and makes it easier to hide from your parents when you haven’t returned home for four days."
+d "На самом деле, в большинстве компьютерных клубов мало света. Это помогает снизить напряжение на глаза, и вам легче прятаться от родителей, когда отсутствуете больше четырёх дней."
 show cam thinking with Dissolve(.2)
 ca "When you say it so matter-of-factly, I get the impression that you know from experience."
 show damen neutral with Dissolve(.2)
-d "Don’t haze me. We must save our efforts for the cast of the main story."
+d "Не мучай меня. Мы должны сохранить силы for the cast of the main story."
 show cam intense with Dissolve(.2)
-ca "You’re right! We can’t bother with infighting when our spotlight is so brief. This scenario is already 40 percent done!"
+ca "Ты прав! We can’t bother with infighting when our spotlight is so brief. Этот сценарий готов всего на СОРОК процентов!"
 show jon shrug with Dissolve(.2)
 jo "Good point. Who should we bully next?"
 show cam thinking with Dissolve(.2)
@@ -1020,7 +1020,7 @@ jo "... Жёстко. Даже не мог дать ему Криллина."
 show cam thinking with Dissolve(.2)
 ca "We’re giving Tasteless a run for his money when it comes to references here."
 show jon neutral with Dissolve(.2)
-jo "Alright. How are we going to wrap this up, boys? Хотите сказать что-нибудь фанатам?"
+jo "Хорошо. Парни, нам пора закругляться. Хотите сказать что-нибудь фанатам?"
 show damen phone with Dissolve(.2)
 d "Вообще-то, у меня есть послание от разработчиков. В нём говорится: 'Спасибо всем фанатам, терпеливо ожидавшим релиза. Мы надеемся, что показали вам хорошую визуальную новеллу. Пожалуйста, поддержите нас в будущем, сражайтесь!'"
 show cam smile with Dissolve(.2)
@@ -1037,11 +1037,11 @@ show cam thinking with Dissolve(.2)
 ca "... Ну, по крайней мере мы спасли SC2VN."
 play music "sfx/Blue Pineapple.ogg"
 show jon neutral with Dissolve(.2)
-jo "That about does it for us then. It was a pleasure providing a poorly disguised developer commentary alongside you two."
+jo "На этом всё. Было приятно показать эти плохо замаскированные комментарии разработчиков с вами двумя."
 show damen smile with Dissolve(.2)
 d "Likewise."
 show cam intense with Dissolve(.2)
-ca "Take care! Let’s meet again. Before StarCraft 3 comes out, please."
+ca "Берегите себя! Давайте встретимся снова. Лучше перед выходом StarCraft 3."
 #end with some chibi animation
 stop music fadeout 5.0
 window hide dissolve
