@@ -431,13 +431,13 @@ show damen neutral at right:
     xpos 1.09
 with Dissolve(2.0)
 window show dissolve
-ca "Can you believe this? Relegated to a scene in the extras… I didn’t back the project for this!"
+ca "Ты можешь поверить в это? Низвести нас до сцены в "Дополнительно"… Я не для этого поддержал проект!"
 show damen calm with Dissolve(.2)
-d "Calm down. We got a cameo in the main game, didn't we?"
+d "Успокойся. Разве у нас нет камео в основоной игре?"
 show cam intense with Dissolve(.2)
-ca "FOR LIKE LITERALLY TWO SECONDS. I wanted them to go deep into my life and backstory! What makes me tick? What’s my motivation?!"
+ca "БУКВАЛЬНО НА ДВЕ СЕКУНДЫ. Я хотел, чтобы они углубились в историю моей жизни! Что заставило меня идти к цели? Какова быба моя мотивация?!"
 show jon shrug with dissolve
-jo "So this is going to be one of those extra scenes… Well let’s make the most of it. What’s the story excuse for us to be here anyway?"
+jo "Так, это будет одна из тех дополнительных сцен… Хорошо, давай выжмем максимум из неё. What’s the story excuse for us to be here anyway?"
 show damen phone with Dissolve(.2)
 d "We won a contest hosted by the VSL. It includes an all-expenses paid trip to the VSL Finals and a voucher for a free day at a hot spring just outside of Seoul."
 show jon neutral with Dissolve(.2)
@@ -1012,29 +1012,29 @@ ca "Oh! Dish it out. Who’s the best?"
 show damen phone with Dissolve(.2)
 d "The skill ranking is as follows: Jett > Accel > Reva > Mach > Stunt. However, Stunt has a high amount of potential to move up if he improves his mindset."
 show jon shrug with Dissolve(.2)
-jo "Damn. So if Bolt is Vegeta, then that means Jett is Goku?"
+jo "Damn. То есть, если Болт - Веджетта, значит Джетт - Гоку?"
 show damen neutral with Dissolve(.2)
-d "Accel is Piccolo, Stunt is Gohan. Reva is an android. And, Mach… I’m sorry, but you’re Yamcha."
+d "Аксель - Пикколо, Стант - Гохан. Рева - андроид. А Мах… Прости, но ты Ямча."
 show jon smile with Dissolve(.2)
-jo "... Brutal. Couldn’t even give him Krillin."
+jo "... Жёстко. Даже не мог дать ему Криллина."
 show cam thinking with Dissolve(.2)
 ca "We’re giving Tasteless a run for his money when it comes to references here."
 show jon neutral with Dissolve(.2)
-jo "Alright. How are we going to wrap this up, boys? Anything you want to say to the fans out there?"
+jo "Alright. How are we going to wrap this up, boys? Хотите сказать что-нибудь фанатам?"
 show damen phone with Dissolve(.2)
-d "I have a direct message here from the devs, actually. It says: 'Thanks to our fans who waited patiently on release. We hoped that we showed you a good visual novel. Please support us in the future, fighting!'"
+d "Вообще-то, у меня есть послание от разработчиков. В нём говорится: 'Спасибо всем фанатам, терпеливо ожидавшим релиза. Мы надеемся, что показали вам хорошую визуальную новеллу. Пожалуйста, поддержите нас в будущем, сражайтесь!'"
 show cam smile with Dissolve(.2)
-ca "I guess Mach really was just a self-insert for a Koreaboo all along."
-d "Oh, and then at the bottom: ‘And a special thank you to all of our backers! The project would not have been possible without you.’"
+ca "Наверное, Мах действительно был всего лишь самостоятельной вставкой для Koreaboo."
+d "О, тут дальше ещё есть: ‘И особая благодарность тем, кто нас поддержал! Без вас этот проект не был бы возможен.’"
 show jon smile with Dissolve(.2)
-jo "That’s us! We did it, guys! We saved eSports!"
+jo "Это про нас! Мы сделали это, парни! Мы спасли eSports!"
 stop music
 show damen calm
 show cam neutral
 with Dissolve(.2)
 pause 2
 show cam thinking with Dissolve(.2)
-ca "... Well, we saved SC2VN, at least."
+ca "... Ну, по крайней мере мы спасли SC2VN."
 play music "sfx/Blue Pineapple.ogg"
 show jon neutral with Dissolve(.2)
 jo "That about does it for us then. It was a pleasure providing a poorly disguised developer commentary alongside you two."
@@ -1072,8 +1072,8 @@ label S1studioQualifier:
         linear 15 xpos .45 subpixel True
     window show dissolve
     show screen show_enc_button #DELETE THIS AFTER TESTING
-    "There’s a certain feeling that every StarCraft player gets before they lose."
-    "Most try to ignore it at first, as if the inevitable is just another challenge to fight through."
+    "Есть особое чувство, которое испытытывает каждый игрок в StarCraft перед поражением."
+    "Большинство стараются поначалу его игнорировать, as if the inevitable is just another challenge to fight through."
     "Like their past mistakes don’t count if they just try a little bit harder."    
     show bg cg11 at left with Dissolve(1):
         zoom 1.2 ypos 1.5
@@ -1095,7 +1095,7 @@ label S1studioQualifier:
     "When my frustration fades, I’m left only with guilt."
     show bg cg13 with Dissolve(1):
         align (0,0)
-    "I should have practiced harder."
+    "Мне нужно усерднее тренироваться."
     stop Track2 fadeout 2.0
     window hide dissolve
     scene bg hallway2 with Dissolve(2):
@@ -1135,7 +1135,7 @@ label S3apartmentGame:
     scene bg showmatch5 opening with dissolve:
         align(0,0)
 
-    "Every game of StarCraft begins the same."
+    "Каждая игра в StarCraft начинается одинаково."
 
 
     scene bg black with Dissolve(0.1):
@@ -1147,7 +1147,7 @@ label S3apartmentGame:
         yalign 0.0
         easein 0.4 yalign 0.3 alpha 1 subpixel True
 
-    "Gather resources."
+    "Собирать ресурсы."
 
 
 
@@ -1162,21 +1162,21 @@ label S3apartmentGame:
         alpha 0 
         yalign 0.0
         easein 0.4 yalign 0.3 alpha 1 subpixel True
-    "Construct a building."
+    "Строить здания."
 
     show intro raisearmy:
         alpha 0 
         yalign 0.3 xpos .1
         easein 0.4 xpos 0.0 alpha 1 subpixel True
 
-    "Rally an army."
+    "Собрать армию."
 
     show intro defend:
         alpha 0 
         yalign 0.0
         easein 0.4 yalign 0.3 alpha 1 subpixel True
 
-    "Defend a base."
+    "Защищать базу."
     show intro contest:
         alpha 0 
         yalign 0.3 xpos -.1
@@ -1209,16 +1209,16 @@ label S3apartmentGame:
 
     "It’s not for everyone. It might not even be for me."
 
-    "How many more chances am I going to get? Was that my last?"
+    "Как много ещё шансов я получу? Это был последний??"
     stop sound fadeout 1.0
     play sound "sfx/battle/unsiegedattacking.ogg"
     show white with Dissolve(0.1):   
     show bg introbattle terran with dissolve:
         align(0,0)
     hide white with Dissolve(0.2)
-    "Oh. The feeling is back."
+    "Ох. То чувство вернулось."
 
-    "Hah… Why am I still trying? Why can’t I quit?"
+    "Хах… Почему я всё ещё стараюсь? Почему не могу уйти?"
     #return
     
     ##AUDIO: slam first
