@@ -439,13 +439,13 @@ ca "БУКВАЛЬНО НА ДВЕ СЕКУНДЫ. Я хотел, чтобы о�
 show jon shrug with dissolve
 jo "Так, это будет одна из тех дополнительных сцен… Хорошо, давай выжмем максимум из неё. What’s the story excuse for us to be here anyway?"
 show damen phone with Dissolve(.2)
-d "We won a contest hosted by the VSL. It includes an all-expenses paid trip to the VSL Finals and a voucher for a free day at a hot spring just outside of Seoul."
+d "Мы выйграли турнир, организованный VSL. It includes an all-expenses paid trip to the VSL Finals and a voucher for a free day at a hot spring just outside of Seoul."
 show jon neutral with Dissolve(.2)
 jo "Wait, give me that. That kind of pandering isn’t in the budget. Besides, this isn’t an otome game."
 show damen calm with Dissolve(.2)
 d "Five out of the seven characters are male, not including us or Mach. Are you sure about that?"
 show jon shrug with Dissolve(.2)
-jo "Ну, это определённо не яойная игра. And that’s a decent ratio for eSports!"
+jo "Ну, это определённо не яойная игра. И это приличное соотношение для eSports!"
 show cam thinking with Dissolve(.2)
 ca "Reva isn’t brave enough to go outdoors unless it’s for StarCraft, which leaves us with Jett for OVA-style hijinks..."
 window hide dissolve
